@@ -1,0 +1,25 @@
+Django - fast,security, components
+For VScode
+pip install virtualenvwrapper-win
+mkvirtualenv (name)->test
+pip install django..... django-admin --version
+django-admin startproject Firstproject(name)
+python manage.py runserver
+
+HTTPS 
+GEt -> fetching data requestion to server
+POST -> adding the new data to server(filling the form)
+PUT -> update the data
+Delete
+
+dyanamic page add garnu cha vaney we can do that with help of DTL
+DTL is specifically built for developers to embed Django logic codes into HTML template files.
+
+web page needed data layout and logic. sometimes it is good to separate this 3 things and MVT does it.
+MVT->model view template
+Model -> data. Data is coming from databases
+Templates -> layout, The template is the presentation layer.
+Eg: When we(user) want to fetch data so we request and this req will go to web application(django framewok) in django whenever you build a project
+you will get a specific file URLs it does all the mapping and so that navigation will be sent to views so that bussiness logic which we want to write 
+will be done in views and this views will use the model objects and templates. View connected with model and templates 
+ 
